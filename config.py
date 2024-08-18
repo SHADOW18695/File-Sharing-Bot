@@ -15,8 +15,8 @@ DB_URL = os.environ.get("DB_URL", "mongodb+srv://EduBook:edubook@edubook.ofzondq
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1579830949"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "https://t.me/+l1wYkDcVITA0ZDc1"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002238159082"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001579830949"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
