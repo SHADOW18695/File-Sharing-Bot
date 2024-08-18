@@ -1,3 +1,8 @@
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+
+
 from aiohttp import web
 from plugins import web_server
 import pyromod.listen
@@ -6,9 +11,7 @@ from pyrogram.enums import ParseMode
 import sys
 from datetime import datetime
 from config import API_HASH, API_ID, LOGGER, BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, CHANNEL_ID, PORT
-import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009999999999
 
 
 
